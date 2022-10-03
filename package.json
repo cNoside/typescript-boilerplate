@@ -1,0 +1,27 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for TypeScript projects",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node dist",
+    "dev": "ts-node-dev --respawn --transpile-only -r tsconfig-paths/register src/index.ts",
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts"
+  },
+  "devDependencies": {
+    "typescript": "4.8.4",
+    "@types/node": "18.8.0",
+    "ts-node-dev": "2.0.0",
+    "tsconfig-paths": "4.1.0",
+    "@typescript-eslint/eslint-plugin": "5.38.1",
+    "@typescript-eslint/parser": "5.38.1",
+    "eslint": "8.22.0"
+  },
+  "keywords": [
+    "typescript",
+    "boilerplate"
+  ],
+  "author": "cNoside",
+  "license": "MIT"
+}
